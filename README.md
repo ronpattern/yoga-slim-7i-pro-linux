@@ -15,10 +15,20 @@
 - Kernel Version: 5.15.60-1-MANJARO (64-bit)
 - Graphics Platform: X11
 
-### Fix screen refresh issue
 
-**Symptom :** Screen flickering. The display refresh does not seem to be synchronized. In my case, KDE crash after a few seconds.
+## Fix screen refresh issue
+
+**Symptoms :** Screen flickering. The display refresh does not seem to be synchronized. In my case. KDE crash after a few seconds.
 
 **Solution :** Add the following kernel paprameter: 
 
 `i915.enable_psr=0`
+
+
+## Fix internal keyboard issue
+
+**Symptoms :** The laptop keyboard is unresponsive on boot. The keyboard is not detected immediately, it works sometimes after a long period of time.
+
+**Solution :** Add the following parameters to the kernel : 
+
+`i8042.direct i8042.dumbkbd`
