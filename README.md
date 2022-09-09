@@ -18,17 +18,26 @@
 
 ## Fix screen refresh issue
 
-**Symptoms :** Screen flickering. The display refresh does not seem to be synchronized. In my case. KDE crash after a few seconds.
+**Symptoms :** Screen flickering. The display does not seem to be well synchronized. In my case, KDE crash after a few seconds.
 
 **Solution :** Add the following kernel paprameter: 
 
 `i915.enable_psr=0`
 
 
-## Fix internal keyboard issue
+## Fix internal keyboard detection issue
 
 **Symptoms :** The laptop keyboard is unresponsive on boot. The keyboard is not detected immediately, it works sometimes after a long period of time.
 
 **Solution :** Add the following parameters to the kernel : 
 
 `i8042.direct i8042.dumbkbd`
+
+
+## Fix black screen on resume issue ( KDE only )
+
+**Symptoms :** Resume from suspend / hibernate works properly. But when the computer is not in a sleeping state and the screen is turned off, the screen stays black on resume.
+
+**Solution :** Add the following parameter to the kernel : 
+
+`acpi_backlight=vendor`
