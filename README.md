@@ -14,3 +14,11 @@
 - Processors: 8 × 11th Gen Intel® Core™ i7-11370H @ 3.30GHz
 - Memory: 16 Gio of RAM
 - Graphics Processor: NVIDIA GeForce MX450
+
+## Fix screen refresh issue
+
+Symptom : Screen flickering. The display refresh does not seem to be synchronized. In my case, KDE crash after a few seconds.
+
+Solution : Add the following kernel paprameter: 
+
+i915.enable_psr=0
