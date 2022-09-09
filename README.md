@@ -1,6 +1,12 @@
 # Linux on Yoga Slim 7i Pro ( Intel )
 
-### Sofware :
+### Laptop model / Hardware :
+
+- Processors: 8 × 11th Gen Intel® Core™ i7-11370H @ 3.30GHz
+- Memory: 16 Gio of RAM
+- Graphics Processor: NVIDIA GeForce MX450
+
+### Sofware environment :
 
 - Operating System: Manjaro Linux
 - KDE Plasma Version: 5.24.6
@@ -9,16 +15,10 @@
 - Kernel Version: 5.15.60-1-MANJARO (64-bit)
 - Graphics Platform: X11
 
-### Hardware :
+### Fix screen refresh issue
 
-- Processors: 8 × 11th Gen Intel® Core™ i7-11370H @ 3.30GHz
-- Memory: 16 Gio of RAM
-- Graphics Processor: NVIDIA GeForce MX450
+**Symptom :** Screen flickering. The display refresh does not seem to be synchronized. In my case, KDE crash after a few seconds.
 
-## Fix screen refresh issue
+**Solution :** Add the following kernel paprameter: 
 
-Symptom : Screen flickering. The display refresh does not seem to be synchronized. In my case, KDE crash after a few seconds.
-
-Solution : Add the following kernel paprameter: 
-
-i915.enable_psr=0
+`i915.enable_psr=0`
