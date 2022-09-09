@@ -36,7 +36,7 @@
 
 ## Fix black screen on resume issue ( KDE only )
 
-**Symptoms :** Resume from suspend / hibernate works properly. But when the computer is not in a sleeping state and the screen is turned off, the screen stays black on resume.
+**Symptoms :** Resume from suspend / hibernate works properly. But when the computer is not in sleep mode and the screen is turned off, the screen stays black on resume.
 
 **Solution :** Add the following parameter to the kernel : 
 
