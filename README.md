@@ -1,4 +1,4 @@
-# Linux on Yoga Slim 7i Pro ( Intel )
+# Linux on Yoga Slim 7i Pro - Intel model ( 14IHU5 O )
 
 ### Laptop model / Hardware :
 
