@@ -59,5 +59,5 @@ With recent kernel, sound should work out of the box. But if its not the case an
  
  `Plasma settings > Display > Compositor > Latency > Force smoothest animations`
  
- 3) Enable triple buffuering
+ 3) Enable triple buffuring
 
