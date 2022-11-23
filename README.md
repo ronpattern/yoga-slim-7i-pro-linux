@@ -1,9 +1,8 @@
-# Manjaro on Yoga Slim 7i Pro - Intel model ( 14IHU5 O )
+# Manjaro on Yoga Slim 7i Pro ( 14IHU5 O )
 
 ### Laptop model / Hardware :
 
 - Processors: 8 × 11th Gen Intel® Core™ i7-11370H @ 3.30GHz
-- Memory: 16 Gio of RAM
 - Graphics Processor: NVIDIA GeForce MX450
 
 ### Sofware environment :
