@@ -48,3 +48,10 @@ With recent kernel, sound should work out of the box. But if its not the case an
 
  `alsa-firmware, sof-firmware, alsa-ucm-conf, alsa-tools` 
 
+
+ ## Fix choppy animations / video sluttering on KDE ( NVidia )
+ 
+ `sudo systemctl enable nvidia-persistenced.service`
+ 
+ Plasma settings > Display >Compositor > Latency > Force smoothest animations
+
