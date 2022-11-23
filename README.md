@@ -41,3 +41,11 @@
 **Solution :** Add the following parameter to the kernel : 
 
 `acpi_backlight=vendor`
+
+
+## Fix audio issue
+
+With recent kernel, sound should work out of the box. But if its not the case and the speaker device is not detected, be sure to have your kernel version > 5.14.14 and the following packages installed :
+
+ `alsa-firmware, sof-firmware, alsa-ucm-conf, alsa-tools` 
+
