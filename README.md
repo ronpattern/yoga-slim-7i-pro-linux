@@ -37,7 +37,7 @@
 
 **Symptoms :** Resume from suspend / hibernate works properly. But when the computer is not in sleep mode and the screen is turned off, the screen stays black on resume.
 
-**Solution :** ~~Add the following parameter to the kernel~~ : 
+**~~Solution~~ :** ~~Add the following parameter to the kernel~~ : 
 
 `acpi_backlight=vendor`
 
@@ -45,7 +45,9 @@
 
 `sudo nano /sys/class/backlight/intel_backlight/brightness`
 
-**New temporary solution : ** 
+**New temporary solution :**
+
+`System Settings > Power Management > Energy Saving > Buttons Event Handling > When Power Button pressed > Turn Off Screen`
 
 
 ## Fix audio issue
