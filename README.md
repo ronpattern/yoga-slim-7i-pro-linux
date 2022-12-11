@@ -68,4 +68,6 @@ With recent kernel, sound should work out of the box. But if its not the case an
  `Plasma settings > Display > Compositor > Latency > Force smoothest animations`
  
  3) Enable triple buffuring
+ 
+**N.B. :** It is recommended to prefer intel to nvividia, because there is none of these symptoms, the battery will have a better autonomy and the temperature will be stable.
 
