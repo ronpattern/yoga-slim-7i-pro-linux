@@ -69,5 +69,5 @@ With recent kernel, sound should work out of the box. But if its not the case an
  
  3) Enable triple buffuring
  
-**N.B. :** It is recommended to prefer intel to nvividia, because there is none of these symptoms, the battery will have a better autonomy and the temperature will be stable.
+**N.B :** It is recommended to prefer intel to nvividia, because there is none of these symptoms, the battery will have a better autonomy and the temperature will be stable. To be able to switch between the integrated and the dedicated graphic card, install **optimus-manager**.
 
