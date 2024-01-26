@@ -45,7 +45,7 @@
 
 `sudo nano /sys/class/backlight/intel_backlight/brightness`
 
-**New temporary solution :**
+**~~New temporary solution~~ :**
 
 `System Settings > Power Management > Energy Saving > Buttons Event Handling > When Power Button pressed > Turn Off Screen`
 
