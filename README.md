@@ -32,6 +32,9 @@
 
 `i8042.direct i8042.dumbkbd`
 
+**UPDATE :** An other solution is to apply the following patch to your kernel :
+
+[https://github.com/yescallop/atkbd-nogetid](https://github.com/yescallop/atkbd-nogetid)
 
 ## ~~Fix black screen on resume issue ( KDE only )~~ ( Fixed )
 
